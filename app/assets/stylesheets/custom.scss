@@ -5,30 +5,31 @@ body {
 
 
 .home {
+  align-items: center;
   background-image: url('pink-clouds');
-  // background-image: url('pink-photo');
   background-position: center top;
   background-size: cover;
   box-sizing: border-box;
   color: white;
-  text-align: center;
-  color: white;
+  display: flex;
   font-family: 'Raleway', helvetica, sans;
   height: 100vh;
+  justify-content: center;
   margin: 0;
   padding: 0;
+  text-align: center;
   text-transform: uppercase;
   width: 100vw;
 }
 
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .home-wrapper {
   margin: 0 4%;
+  h1 {
+    a {
+      color: white;
+    }
+  }
 }
 
 h1 {
