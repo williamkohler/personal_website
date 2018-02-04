@@ -52,3 +52,10 @@ a {
   color: #5be5bd;
   text-decoration: none;
 }
+
+@media (max-width: 800px) {
+  .about-links {
+    font-size: 4.0em;
+
+  }
+}
