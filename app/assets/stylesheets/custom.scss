@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.home {
+  background-image: url('pink-clouds');
+  // background-image: url('pink-photo');
+  background-position: center top;
+  background-size: cover;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', helvetica, sans;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  width: 100vw;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+h1 {
+  display: block;
+  border: 1px solid blue;
+  font-size: 100px;
+  border: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+}
+
+a {
+  color: #5be5bd;
+  text-decoration: none;
+}
