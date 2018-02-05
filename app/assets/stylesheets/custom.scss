@@ -6,8 +6,7 @@ body {
 
 .home {
   align-items: center;
-  background-image: url('pink-clouds');
-  background-image: image-url('pink-clouds');
+  // background-image: image-url('pink-clouds');
   background-position: center top;
   background-size: cover;
   box-sizing: border-box;
@@ -52,8 +51,14 @@ a {
   text-decoration: none;
 }
 
-// @media (max-width: 800px) {
-//   .about-links {
-//     font-size: 4.0em;
-//   }
-// }
+.home-banner-1 {
+  background-image: image-url('pink-clouds')
+}
+
+.home-banner-2 {
+  background-image: image-url('blossoms')
+}
+
+.home-banner-3 {
+  background-image: image-url('pink-photo')
+}
