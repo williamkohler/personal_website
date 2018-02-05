@@ -44,7 +44,7 @@ h1 {
 }
 
 .about-links {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 400;
 }
 
@@ -52,22 +52,22 @@ a {
   color: yellow;
   text-decoration: none;
   &:hover {
-    color: white;
+    color: blue;
   }
 }
 
 .home-banner-1 {
-  background-image: image-url('dance')
+  background-image: image-url('studio@ilkafranz.com-1')
 }
 
 .home-banner-2 {
-  background-image: image-url('noise')
+  background-image: image-url('visual@kenaim.com-1')
 }
 
 .home-banner-3 {
-  background-image: image-url('blink')
+  background-image: image-url('visual@kenaim.com-2')
 }
 
 .home-banner-4 {
-  background-image: image-url('blood')
+  background-image: image-url('dance')
 }
