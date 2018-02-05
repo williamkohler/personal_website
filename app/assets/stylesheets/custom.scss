@@ -6,13 +6,12 @@ body {
 
 .home {
   align-items: center;
-  // background-image: image-url('pink-clouds');
   background-position: center top;
   background-size: cover;
   box-sizing: border-box;
   color: white;
   display: flex;
-  font-family: 'Raleway', helvetica, sans;
+  font-family: 'helvetica';
   height: 100vh;
   justify-content: center;
   margin: 0;
@@ -38,7 +37,7 @@ h1 {
   font-size: 6.5em;
   border: 0;
   margin: 0;
-  color: rgba(255, 255, 255, 1);
+  color: white;
 }
 
 .about-links {
