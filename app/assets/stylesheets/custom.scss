@@ -1,3 +1,10 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+$app-green:  #5be5bd;
+
 body {
   margin: 0;
   padding: 0;
@@ -38,7 +45,7 @@ h1 {
   font-size: 6.5em;
   border: 0;
   margin: 0;
-  color: rgba(255, 255, 255, 1);
+  color: white;
 }
 
 .about-links {
@@ -47,7 +54,7 @@ h1 {
 }
 
 a {
-  color: #5be5bd;
+
   text-decoration: none;
 }
 
@@ -60,5 +67,16 @@ a {
 }
 
 .home-banner-3 {
+  background-image: image-url('hands')
+}
+
+.home-banner-4 {
   background-image: image-url('pink-photo')
+}
+
+/* Icons */
+.icon {
+  font-size: 6em;
+  margin: 0 16px;
+  // color: $app-green;
 }

@@ -1,6 +1,9 @@
 <div class="home about home-banner-<%= rand(1..2) %>">
   <div class="home-wrapper">
     <h1><%= link_to "Bill Kohler", 'mailto:bkohler4@gmail.com?' %></h1>
+    <%= icon('github', class: 'icon') %>
+    <%= icon('film',   class: 'icon') %>
+    <%= icon('music', class: 'icon') %>
     <div class="about-links">
       <%= link_to 'code', "https://github.com/williamkohler" %>
       |
@@ -10,4 +13,5 @@
       <%= link_to 'music', "https://www.last.fm/user/mifami" %>
     </div>
   </div>
+
 </div>
