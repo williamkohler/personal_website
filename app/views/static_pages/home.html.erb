@@ -1,17 +1,17 @@
-<div class="home about home-banner-<%= rand(1..4) %>">
+<div class="home about home-banner-<%= rand(1..3) %>">
   <div class="home-wrapper">
     <h1><%= link_to "Bill Kohler", 'mailto:bkohler4@gmail.com?' %></h1>
     <div class="about-links">
-      <%= link_to 'code', "https://github.com/williamkohler" %>
-      |
-      <%= link_to 'film',
-      "https://letterboxd.com/williamkohler/likes/films/by/release/" %>
-      |
-      <%= link_to 'music',
-      "https://www.last.fm/user/mifami" %>
-      |
-      <%= link_to 'Resume',
-      "https://drive.google.com/open?id=14b-0VZQkaJFLOYYzuaskF--b5EBIx7QB" %>
+      <ul>
+        <li>  <%= link_to 'code', "https://github.com/williamkohler" %></li>
+        <li><%= link_to 'film',
+        "https://letterboxd.com/williamkohler/likes/films/by/release/" %></li>
+        <li><%= link_to 'music',
+        "https://www.last.fm/user/mifami" %>
+        </li>
+        <li><%= link_to 'Resume',
+        "https://drive.google.com/open?id=14b-0VZQkaJFLOYYzuaskF--b5EBIx7QB" %></li>
+      </ul>
     </div>
   </div>
 </div>
