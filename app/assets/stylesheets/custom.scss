@@ -36,7 +36,6 @@ body {
 h1 {
   display: block;
   border: 1px solid blue;
-  // font-size: 500%;
   font-size: 6.5em;
   border: 0;
   margin: 0;
@@ -44,8 +43,8 @@ h1 {
 }
 
 .about-links {
-  // font-size: 200%;
   font-size: 3em;
+  font-weight: 400;
 }
 
 a {
@@ -53,9 +52,8 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 800px) {
-  .about-links {
-    font-size: 4.0em;
-
-  }
-}
+// @media (max-width: 800px) {
+//   .about-links {
+//     font-size: 4.0em;
+//   }
+// }
