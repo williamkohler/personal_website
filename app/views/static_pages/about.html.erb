@@ -1,9 +1,9 @@
 
-
   <div class="video-wrapper">
     <%= video_tag('dancing-1986-1987.mp4', autoplay: :autoplay,
                                 loop:     :loop,
-                                muted:    :true,
+                                muted:    true  ,
+                                controls: false,
                                 id:       'video-background') %>
     <div class="overlay-desc">
       <div>
@@ -17,20 +17,16 @@
           <li><%= link_to 'music',
           "https://www.last.fm/user/mifami" %>
           </li>
-          <li><%= link_to 'Resume',
+          <li><%= link_to 'resume',
           "https://drive.google.com/open?id=14b-0VZQkaJFLOYYzuaskF--b5EBIx7QB" %></li>
         </ul>
       </div>
-
-
-
     </div>
-
   </div>
-  <div class="audio">
-    <!-- does not work with safari -->
+  <!-- <div class="audio">
+    <!-- TODO: does not work with safari. get authenticated -->
     <%= audio_tag('song-1.mp3', controls:     true,
                                     loop:     true,
                                     autoplay: true,
-                                    hidden:   true )%>
-  </div>
+                                    hidden:   false )%>
+  </div> -->
