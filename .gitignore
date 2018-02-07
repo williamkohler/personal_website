@@ -23,5 +23,4 @@
 .byebug_history
 
 # Ignore assets.
-/app/assets/videos/dancing-1986-1987.mp4
 /app/assets/audio/song-1.mp3
