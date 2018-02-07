@@ -1,0 +1,36 @@
+
+
+  <div class="video-wrapper">
+    <%= video_tag('dancing-1986-1987.mp4', autoplay: :autoplay,
+                                loop:     :loop,
+                                muted:    :true,
+                                id:       'video-background') %>
+    <div class="overlay-desc">
+      <div>
+        <%= link_to (image_tag 'name-6'), 'mailto:bkohler4@gmail.com?' %>
+      </div>
+      <div class="test-links">
+        <ul>
+          <li>  <%= link_to 'code', "https://github.com/williamkohler" %></li>
+          <li><%= link_to 'film',
+          "https://letterboxd.com/williamkohler/likes/films/by/release/" %></li>
+          <li><%= link_to 'music',
+          "https://www.last.fm/user/mifami" %>
+          </li>
+          <li><%= link_to 'Resume',
+          "https://drive.google.com/open?id=14b-0VZQkaJFLOYYzuaskF--b5EBIx7QB" %></li>
+        </ul>
+      </div>
+
+
+
+    </div>
+
+  </div>
+  <div class="audio">
+    <!-- does not work with safari -->
+    <%= audio_tag('song-1.mp3', controls:     true,
+                                    loop:     true,
+                                    autoplay: true,
+                                    hidden:   true )%>
+  </div>
