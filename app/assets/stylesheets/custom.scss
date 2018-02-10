@@ -127,6 +127,9 @@ a {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
+  background-image: image-url('visual@kenaim.com-2');
+  background-size: cover;
+
 }
 
 .overlay-desc {
@@ -156,4 +159,8 @@ a {
 }
 
 .audio {
+}
+
+.hidden {
+  display: none;
 }
