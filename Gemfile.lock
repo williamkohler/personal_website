@@ -275,6 +275,7 @@ GEM
       ruby-progressbar
     multi_json (1.13.1)
     nenv (0.3.0)
+    newrelic_rpm (4.8.0.341)
     nio4r (2.2.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
@@ -403,6 +404,7 @@ DEPENDENCIES
   listen (= 3.0.8)
   mini_magick (= 4.7.0)
   minitest-reporters (= 1.1.14)
+  newrelic_rpm
   pg (= 0.18.4)
   pry
   puma (= 3.9.1)
