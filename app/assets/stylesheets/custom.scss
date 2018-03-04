@@ -1,20 +1,19 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
 @mixin box-sizing {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -box-sizing: border-box;
 }
-
 $app-orange: #f78b42;
 $app-green: #40FD3A;
+$app-purple: #f73afd;
+$app-yellow: #fdf73a;
 
 body {
   margin: 0;
   padding: 0;
 }
-
 
 .home {
   background-position: center top;
@@ -30,22 +29,24 @@ body {
   width: 100vw;
 }
 
-
 .home-wrapper {
-  margin: 4% 4%;
+  margin: 4%;
 
   ul {
     list-style-type: none;
     padding: 0;
+
     a {
       &:hover {
         font-size: 1.4em;
       }
     }
   }
+
   h1 {
     a {
       color: white;
+
       &:hover {
         color: blue;
       }
@@ -70,52 +71,55 @@ h1 {
 a {
   color: yellow;
   text-decoration: none;
+
   &:hover {
     color: blue;
   }
 }
 
+.green-water {
+  background-image: image-url('green-water');
+}
+
 .home-banner-1 {
-  background-image: image-url('dance-2')
+  background-image: image-url('dance-2');
 }
 
 .home-banner-2 {
-  background-image: image-url('visual@kenaim.com-1')
+  background-image: image-url('visual@kenaim.com-1');
 }
 
 .home-banner-3 {
-  background-image: image-url('visual@kenaim.com-2')
+  background-image: image-url('visual@kenaim.com-2');
 }
 
 .home-banner-4 {
-  background-image: image-url('so-what')
+  background-image: image-url('so-what');
 }
 
 .home-banner-5 {
-  background-image: image-url('studio@ilkafranz.com-1')
+  background-image: image-url('studio@ilkafranz.com-1');
 }
 
 .face-banner {
-  background-image: image-url('my-face')
+  background-image: image-url('my-face');
 }
 
 .face-test {
   height: 200px;
   width: 200px;
   display: hidden;
+
   &:hover {
     display: block;
     background-size: contain;
-    background-image: image-url('my-face')
+    background-image: image-url('my-face');
   }
 }
-
 /* testing helpers */
 .blue-border {
   border: 3px solid blue;
 }
-
-
 /* Video Background */
 #video-background {
   height: 100%;
@@ -128,7 +132,7 @@ a {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background-image: image-url('visual@kenaim.com-2');
+  background-image: image-url('green-water');
   background-size: cover;
 }
 
@@ -149,9 +153,11 @@ a {
 
 .test-links {
   margin-top: 3%;
+
   a {
-    color: $app-orange;
+    color: $app-purple;
   }
+
   ul {
     list-style: none;
     padding: 0;
@@ -164,16 +170,12 @@ a {
   width: 18%;
 }
 
-.audio {
-}
+.audio {}
 
 .hidden {
   display: none;
 }
-
 /* Music */
-
-
 .music-wrapper {
   width: 100%;
   justify-content: flex-end;
