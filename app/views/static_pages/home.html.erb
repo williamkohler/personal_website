@@ -1,5 +1,10 @@
 <div class="video-wrapper">
-  <%= video_tag("dancing-1986-1987-2.mp4", autoplay: :autoplay, loop: :loop, muted: true, playsinline: true, controls: false, id: 'video-background') %>
+  <%= video_tag("dancing-1986-1987-2.mp4", autoplay: :autoplay,
+                                           loop: :loop,
+                                           muted: true,
+                                           playsinline: true,
+                                           controls: false,
+                                           id: 'video-background') %>
   <div class="overlay-desc">
     <div>
       <%= link_to (image_tag 'name-7'), 'mailto:bkohler4@gmail.com?' %>
@@ -7,34 +12,24 @@
     <div class="test-links">
       <ul>
         <li>
-          <%= link_to "code i've written", "https://github.com/williamkohler" %></li>
+          <%= link_to "code i've written", "https://github.com/williamkohler" %>
+        </li>
         <li><%= link_to "work i've done", work_path %>
         </li>
       </ul>
       <div class="space-breaker"></div>
       <ul>
-        <li><%= link_to 'films i like', "https://letterboxd.com/williamkohler/likes/films/by/release/" %>
+        <li><%= link_to 'films i like',
+        "https://letterboxd.com/williamkohler/likes/films/by/release/" %>
         </li>
-        <li><%= link_to "music i'm listening to", "https://www.last.fm/user/mifami" %>
+        <li><%= link_to "music i'm listening to",
+                        "https://www.last.fm/user/mifami" %>
         </li>
       </ul>
       <div class="space-breaker"></div>
       <ul>
         <li><%= link_to 'contact', 'mailto:bkohler4@gmail.com?' %></li>
-        <!-- <% if params[:music] %>
-          <div class="space-breaker"></div>
-          <ul>
-            <li><%= link_to "now playing 'flip out' by jai paul", 'https://soundcloud.com/apmitra/flip-out' %></li>
-          </ul>
-          <%= render 'soundcloud_music_autoplay' %>
-          <% else %>
-
-        <%= link_to 'play music', root_path(music: true) %>
-        <% end %> -->
       </ul>
-
     </div>
   </div>
-
-
 </div>
